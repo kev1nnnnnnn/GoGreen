@@ -48,12 +48,13 @@ const styles = StyleSheet.create({
         marginTop: "6%",
     },
     textScroll: {
-        fontSize: 16,
+        fontSize: 17,
         color: "#fff",
         lineHeight: 25,
         marginBottom: "5%",
-        marginLeft: "3%",
-        marginRight: "3%",
+        marginLeft: "4%",
+        marginRight: "4%",
+        textAlign: "left",
     },
     button: {
         padding: 15,

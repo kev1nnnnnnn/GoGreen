@@ -1,12 +1,13 @@
 import React from "react";
 import { View, Text } from "react-native";
+import styles from "./style"
 
-export default function Information(){
+export default function Information_3(){
 
     return (
-        <View>
-            <Text>As frutas cítricas, também chamadas de frutas ácidas ou citrinos, têm como principal característica a acidez que resulta em sabor ligeiramente azedo.</Text>
-            <Text>Laranja, Limão, Lima, Kiwi, Toranka</Text>
+        <View style={styles.container}>
+             <Text style={styles.textSeca}>As frutas secas estão subdivididas em dois grupos: frutas secas deiscentes e frutas secas indeiscentes.</Text>
+            <Text style={styles.textSeca}>Exemplos de frutos secos: amêndoas, castanhas, nozes e avelãs.</Text>
         </View>
     );
     
