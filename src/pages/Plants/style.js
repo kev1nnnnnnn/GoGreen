@@ -38,12 +38,14 @@ const styles = StyleSheet.create({
     contentScroll: {
 
         marginTop: "5%",
+        marginBottom: "39%",
     },  
     titleScroll: {
         fontSize: 26,
         color: "#fff",
         marginLeft: "3%",
         marginRight: "3%",
+        marginTop: "6%",
     },
     textScroll: {
         fontSize: 16,
@@ -65,6 +67,7 @@ const styles = StyleSheet.create({
     textButton: {
         color: "#fff",
         fontWeight: "bold",
+        fontSize: 19,
     }
 
 });

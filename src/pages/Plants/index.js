@@ -25,7 +25,7 @@ export default function Plants({navigation}){
             <View>
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => navigation.navigate('Information')}
+                onPress={() => navigation.navigate('Carnosos')}
             >
                 <Text style={styles.textButton}>Mais informações</Text>
             </TouchableOpacity>
@@ -40,7 +40,7 @@ export default function Plants({navigation}){
              <View>
             <TouchableOpacity
                 style={styles.button}
-                onPress={[]}
+                onPress={() => navigation.navigate('Secas')}
             >
                 <Text style={styles.textButton}>Mais informações</Text>
             </TouchableOpacity>
@@ -55,7 +55,7 @@ export default function Plants({navigation}){
              <View>
             <TouchableOpacity
                 style={styles.button}
-                onPress={[]}
+                onPress={() => navigation.navigate('Citricas')}
             >
                 <Text style={styles.textButton}>Mais informações</Text>
             </TouchableOpacity>
