@@ -6,8 +6,8 @@ export default function Information_2(){
 
     return (
         <View style={styles.container}>
-            <Text style={styles.textSeca}>Esse grupo de frutos subdivide-se ainda em três tipos: bagas, drupas e pomos.</Text>
-            <Text style={styles.textSeca}>Exemplos de frutos carnosos: laranja, maçã e melancia.</Text>
+            <Text style={styles.textSeca}>As frutas cítricas, também chamadas de frutas ácidas ou citrinos, têm como principal característica a acidez que resulta em sabor ligeiramente azedo.</Text>
+            <Text style={styles.textSeca}>Laranja, Limão, Lima, Kiwi, Toranka</Text>
         </View>
     );
     

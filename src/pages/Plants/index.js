@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
 import styles from './style'
 
+// Entre chaves é passada para o parametro a variavel navigation no qual iremos setar para onde queremos navegar.
 export default function Plants({navigation}){
 
     return (
@@ -11,7 +12,7 @@ export default function Plants({navigation}){
             <Text style={styles.textAlbum}>As frutas podem ser classificadas em três tipos principais: carnosos secos e citrícas. </Text>
             </View>
 
-
+        {/* Adicionado a rolagem de tela do tipo Scroll*/}
         <ScrollView style={styles.contentScroll}>
          
 
@@ -25,7 +26,8 @@ export default function Plants({navigation}){
             <View>
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => navigation.navigate('Carnosos')}
+                // Atráves do onPress, podemos setar a variavel que foi declarada no paramêtro na função principal passando entre () a page que queremos navegar.
+                onPress={() => navigation.navigate('Carnosos')} 
             >
                 <Text style={styles.textButton}>Mais informações</Text>
             </TouchableOpacity>
@@ -40,6 +42,7 @@ export default function Plants({navigation}){
              <View>
             <TouchableOpacity
                 style={styles.button}
+                // Atráves do onPress, podemos setar a variavel que foi declarada no paramêtro na função principal passando entre () a page que queremos navegar.
                 onPress={() => navigation.navigate('Secas')}
             >
                 <Text style={styles.textButton}>Mais informações</Text>
@@ -55,6 +58,7 @@ export default function Plants({navigation}){
              <View>
             <TouchableOpacity
                 style={styles.button}
+                // Atráves do onPress, podemos setar a variavel que foi declarada no paramêtro na função principal passando entre () a page que queremos navegar.
                 onPress={() => navigation.navigate('Citricas')}
             >
                 <Text style={styles.textButton}>Mais informações</Text>
