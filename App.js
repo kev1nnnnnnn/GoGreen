@@ -23,7 +23,7 @@ export default function App() {
     <NavigationContainer >
       <Stack.Navigator >
         {/*Realiza a chamada da Stack.Screen passando o nome e o componente de acordo com as funções criada nos outros arquivos da pasta Information */}
-        <Stack.Screen name="Plants" component={Plants}/>
+        <Stack.Screen name="Plantas" component={Plants}/>
         <Stack.Screen name="Carnosos" component={Information_1}/>
         <Stack.Screen name="Secas" component={Information_2}/>
         <Stack.Screen name="Citricas" component={Information_3}/>
@@ -40,7 +40,9 @@ export default function App() {
 
 const  styles = StyleSheet.create({
 
- 
+  appTitle: {
+    backgroundColor: "#111",
+  }
 
 });
 
